@@ -1,0 +1,128 @@
+
+body, html  {
+  margin: 0;
+  padding: 0;
+
+}
+.container {
+  width:99%;
+  height: 400px;
+  padding: 10px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+  
+.columns {
+  margin:0 15px 15px;
+  box-shadow: 0 20px 20px rgba(0, 0, 0), 0 10px 10px rgba(0, 0, 0);
+  border-radius:3px;
+  flex-basis:33%
+}
+  
+.card {
+  padding:50px 25px
+}
+  @media screen and (max-width: 768px){
+
+.container {
+        flex-direction: column;
+      }
+    }
+
+#main {
+  background-image: linear-gradient(rgba(179, 177, 177), rgba(179, 177, 177)), 
+  url(http://szzljy.com/data/27/free-comic-book-wallpaper/free-comic-book-wallpaper-3.jpg);
+  font-family: helvetica, sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid lightgrey;
+}
+
+#title {
+  background-image: 
+  url(https://www.diachroniki.com/wp-content/uploads/2017/12/eventslefkosiadocumentaryforleonardodavinci.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  opacity: 0.6;
+  margin-bottom: 20px;
+  font-family: 'Bangers', cursive;
+  text-align: center;
+}
+
+#title p {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+#title h1 {
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: 5px;
+}
+h3{
+  font-size: 15px;
+}
+
+img {
+  width: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  opacity: 0.9;
+
+}
+
+a {
+  color: blue;
+ 
+}
+
+#img-caption p {
+  margin: 5px;
+  text-align: center;
+}
+
+ul {
+  padding-bottom: 10px;
+}
+
+li {
+  margin: 10px;
+}
+
+#tribute-info {
+  background: lightgrey;
+  margin-top: 40px;
+  padding: 20px;
+  text-align: left;
+  line-height: 120%;
+
+}
+
+footer p {
+  color: white;
+  padding: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
